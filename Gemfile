@@ -17,7 +17,7 @@ gem "jekyll", "3.9.0"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-   gem "jekyll-feed", "0.13.0"
+   gem "jekyll-feed", "0.15.1"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -25,5 +25,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # github pages
 
-gem 'github-pages', "207"
+gem 'github-pages', "209"
 
