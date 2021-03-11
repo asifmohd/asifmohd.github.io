@@ -2,7 +2,7 @@
 layout: post
 title:  "Digging deeper into xcbuild: Rules and Tasks"
 date:   2021-03-12 01:26:38 +0530
-categories: iOS, Xcode, Build Systems
+categories: iOS
 ---
 
 While debugging incremental builds for my work project. I came across [this github gist](https://gist.github.com/ddunbar/2dda0e836c855ea96759d1d05f086d69) by [Daniel Dunbar](https://twitter.com/daniel_dunbar) who worked on the `llbuild` build engine for Swift and Xcode.
