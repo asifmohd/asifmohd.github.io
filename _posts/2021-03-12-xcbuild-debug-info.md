@@ -47,6 +47,8 @@ You can also find the path to this build.trace file in Xcode build logs. Try fil
 
 ![Xcode screenshot](/assets/build_trace_path_screenshot.png)
 
+Note: We are using the open source [eidolon project](https://github.com/artsy/eidolon) for the screenshots in this post.
+
 Open the `build.trace` file using any text editor.
 
 ### Understanding the build.trace file
