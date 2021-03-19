@@ -43,6 +43,10 @@ The debug logs are generated in the `DerivedData` folder for the project you are
 
 Example path: /~/Library/Developer/Xcode/DerivedData/YourProject-identifier/Build/Intermediates.noindex/XCBuildData/buildDebugging-timestamp/build.trace
 
+You can also find the path to this build.trace file in Xcode build logs. Try filtering for `build.trace`
+
+![Xcode screenshot](/assets/build_trace_path_screenshot.png)
+
 Open the `build.trace` file using any text editor.
 
 ### Understanding the build.trace file
@@ -54,6 +58,8 @@ Each rule can have a task associated with it. While each task must have a rule a
 Any rule which reports as `rule-needs-to-run`, gets a task scheduled for it by the build system.
 
 Generally, you will also find a mention of the reason, why the `rule-needs-to-run` in the adjacent lines in the trace. The reason can be listed as `signature-changed` or `input-rebuilt` and so on.
+
+![build.trace screenshot](/assets/build_system_rules_screenshot.png)
 
 ### Debugging anomalies in the build
 
