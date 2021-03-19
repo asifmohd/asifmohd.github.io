@@ -72,11 +72,11 @@ You can follow these steps to try and identify why this is happening:
 
 ### Tip: Using xclogparser
 
-Look into using xclogparser along with build.trace files to help you find modules which are being compiled on every incremental build with no code changes.
+Look into using [xclogparser](https://github.com/spotify/XCLogParser) along with build.trace files to help you find modules which are being compiled on every incremental build with no code changes.
 
 You can export a report in html represenation to identify which modules are being built and how long they take.
 
-Meanwhile, you can also export a report in json representation that is more data rich, and in this json report you can look for modules which are being rebuilt by searching for `fetchedFromCache : false` in the JSON. This value being false, means the build system was not able to reuse the previously built artifact on an incremental build. Which is most likely an anomaly/misconfiguration in the build settings for that module. This can then become a good starting point for your team to dig deeper into build system issues and improve incremental build performance for everyone
+Meanwhile, you can also export a report in json representation that is more data rich, and in this json report you can look for modules which are being rebuilt by searching for `fetchedFromCache : false` in the JSON. This value being false, means the build system was not able to reuse the previously built artifact on an incremental build. Which is most likely an anomaly/misconfiguration in the build settings for that module. This can then become a good starting point for your team to dig deeper into build system issues and improve incremental build performance for everyone.
 
 ### Tip: Run scripts and input/output file lists
 
