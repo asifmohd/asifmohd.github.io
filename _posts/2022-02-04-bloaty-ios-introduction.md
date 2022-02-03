@@ -2,7 +2,7 @@
 layout: post
 title: "Profiling binary size on iOS using Bloaty"
 date: 2022-02-04 01:19:00 +0530
-categories: ios
+categories: iOS
 ---
 
 I've been using this tool called [Bloaty McBloatface](https://github.com/google/bloaty)[^1] to attribute the contribution of each swift module or file to our app's binary. And it has worked out really well for me, the CLI tool is super fast, gives lots of information, **supports diffing** and has so many options that configurations and options that it's difficult to explore it all in a single blog post.
