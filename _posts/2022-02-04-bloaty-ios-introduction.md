@@ -95,16 +95,12 @@ In this blog post, we'll go through the setup, and share a simple example of usi
 ## Where to go from here?
 
 - Read [this doc around how bloaty works](https://github.com/google/bloaty/blob/master/doc/how-bloaty-works.md)
-- Noticed the VM size column?
-  - According to [this bloaty doc](https://github.com/google/bloaty/blob/master/doc/how-bloaty-works.md#vm-space-and-file-space)
-  "VM space is the bytes of memory when the executable is loaded at runtime."
-  - Therefore if your binary reports around 10MB in total for VM size, then that means your app will consume atleast that much memory during execution.
-    - This could help you measure and improve the memory consumption of your app.
 - Try reducing your app's size by finding out major contributors and refactoring code as needed
 - [Read this blog post by emergetools](https://www.emergetools.com/blog/posts/SwiftReferenceTypes) which among a lot of useful suggestions also shows how adding something as simple as final to your classes helps reduce a few bytes/kilobytes from your overall app size.
 - Since `bloaty` is platform agnostic, I think this could be useful for android apps as well.
 
 ----------
+Footnotes:
 
 [^1]: Love the name :)
 
