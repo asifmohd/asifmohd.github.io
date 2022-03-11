@@ -20,5 +20,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # github pages
 
-gem 'github-pages', "221"
+gem 'github-pages', "225"
 
