@@ -13,7 +13,7 @@ In this blog post, we'll go through the setup, and share a simple example of usi
 
 - If you want to avoid building from source, you can install an older version by executing `brew install bloaty`. (Check the [brew formula](https://formulae.brew.sh/formula/bloaty) for current version)
 - To build from source and get the latest version, follow these steps:
-- Install [cmake](https://cmake.org/) and [ninja]((https://ninja-build.org/)) if not already installed.
+- Install [cmake](https://cmake.org/) and [ninja](https://ninja-build.org/) if not already installed.
   - Using homebrew:
 
     ```bash
